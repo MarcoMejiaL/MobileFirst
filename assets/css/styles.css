@@ -240,3 +240,66 @@ main{
     line-height: 1.8 rem;
     color: #808080;
 }
+
+.product__cards--container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-blackplus1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+
+.cards-icons {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px ;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    
+}
+.clock{
+    background-image: url(../icons/clock.svg);
+}
+
+.eye{
+    
+    background-image: url(../icons/eye.svg);   
+}
+.dollar{
+    
+    background-image: url(../icons/dollar-sign.svg);
+    
+}
+.checkout{
+    
+    background-image: url(../icons/check-circle.svg);
+    
+}
+.product__card--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8;
+    color: var(--just-white);
+}
+.product__card--body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.bitcoin--img__container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
